@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>PEC3 - Herramientas HTML y CSS</title>
+    <meta name="description" content="Desarrollo de la PEC2" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../css/styles.css"
+      media="screen"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../images/logos/laptop-solid.svg"
+    />
+  </head>
+
+  <body id="character">
+    <header>
+      <nav>
+        <div class="container">
+          <a href="../index.html" title="Home page">
+            <img
+              src="../images/logos/logoMenu.svg"
+              class="nav-logo"
+              alt="Logo"
+            />
+          </a>
+          <ul>
+            <li><a href="../presentation.html">Presentación</a></li>
+            <li><a href="../categories.html">Categorías</a></li>
+            <li><a href="../links.html">Enlaces</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section-main">
+        <div class="container">
+          <h1>Dennis Ritchie</h1>
+          <p>
+            Dennis MacAlistair Ritchie (9 de septiembre de 1941 - 12 de octubre
+            de 2011), Graduado de Física y Matemáticas aplicadas de Harvard, fue
+            un científico de la computación estadounidense.
+          </p>
+          <p>
+            Colaboró en el diseño y desarrollo de los sistemas operativos
+            Multics y Unix, así como el desarrollo de varios lenguajes de
+            programación como el C, tema sobre el cual escribió un célebre
+            clásico de las ciencias de la computación junto a Brian Wilson
+            Kernighan: <strong>El lenguaje de programación C</strong>.
+          </p>
+          <p>
+            Recibió el Premio Turing de 1983 por su desarrollo de la teoría de
+            sistemas operativos genéricos y su implementación en la forma del
+            sistema Unix. En 1998 le fue concedida la Medalla Nacional de
+            Tecnología de los Estados Unidos de América. Se jubiló en 2007,
+            siendo todavía entonces el jefe del departamento de investigación en
+            software de sistemas de Alcatel-Lucent.
+          </p>
+          <picture>
+            <source
+              media="(max-width: 576px)"
+              srcset="../images/characters/ritchie-small.jpg"
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 576px)"
+              srcset="../images/characters/ritchie.jpg"
+              type="image/jpg"
+            />
+
+            <img
+              src="../images/characters/ritchie-small.jpg"
+              alt="Imagen Dennis Ritchie"
+            />
+          </picture>
+          <p>
+            Nació en Bronxville (Nueva York) el 9 de septiembre de 1941. Obtuvo
+            dos grados en física y matemática aplicada.
+          </p>
+          <p>
+            En 1967 entró a trabajar en los Laboratorios Bell, donde participó
+            en los equipos que desarrollaron Multics, BCPL, ALTRAN y el lenguaje
+            de programación B..
+          </p>
+          <p>
+            Durante la década de 1960, Ritchie y Ken Thompson trabajaron en el
+            sistema operativo Multics en los laboratorios Bell. Thompson
+            encontró entonces una vieja máquina PDP-7 y desarrolló sus propios
+            programas de aplicación y sistema operativo desde cero, ayudado por
+            Ritchie y otros. En 1970, Brian Kernighan sugirió el nombre "Unix",
+            un juego de palabras con el nombre "Multics". Para complementar el
+            lenguaje ensamblador con un lenguaje de programación a nivel de
+            sistema, Thompson creó B. Más tarde, B fue sustituido por C, creado
+            por Ritchie, que siguió contribuyendo al desarrollo de Unix y C
+            durante muchos años.
+          </p>
+          <p>
+            Durante la década de 1970, Ritchie colaboró con James Reeds y Robert
+            Morris en un ataque de sólo texto cifrado a la M-209 estadounidense
+            que podía resolver mensajes de al menos 2000-2500 letras. Ritchie
+            relata que, tras las discusiones con la Agencia de Seguridad
+            Nacional, los autores decidieron no publicarlo, ya que les dijeron
+            que el principio era aplicable a las máquinas que aún utilizan los
+            gobiernos extranjeros.
+          </p>
+          <p>
+            Como parte de una reestructuración de AT&T a mediados de la década
+            de 1990, Ritchie fue transferido a Lucent Technologies. En Lucent
+            encabezó los esfuerzos para la creación de Plan 9 e Inferno, así
+            como del lenguaje de programación Limbo. En Lucent se jubiló en 2007
+            como jefe del Departamento de Investigación de Software de Sistemas.
+          </p>
+
+          <div class="video">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/-BcbYia299A"
+              title="Tributo a Dennis Ritchie"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+
+          <div class="referencia">
+            <a href="../links.html">
+              La información se ha extraído de otras web. Para más información
+              pulse aquí.
+            </a>
+          </div>
+          <div class="charater-related">
+            <h2>También te puede interesar:</h2>
+            <div class="character-related-items">
+              <div class="charater-related-item">
+                <a href="rosies.html">
+                  <picture>
+                    <source
+                      media="(max-width: 1200px)"
+                      srcset="../images/characters/rosies-small.jpg"
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="../images/characters/rosies.jpg"
+                      type="image/jpg"
+                    />
+
+                    <img
+                      src="../images/characters/rosies-small.jpg"
+                      class="character-img"
+                      alt="Imagen Top Secret Rosies"
+                      loading="lazy"
+                    />
+                  </picture>
+                  <h3 class="character-img-title">Top Secret Rosies</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <button onclick="topFunction()" id="up_buttom" title="Arriba">
+        Arriba
+      </button>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-menu">
+          <img
+            src="../images/logos/logoFooter.svg"
+            class="nav-logo"
+            alt="Logo"
+            loading="lazy"
+          />
+
+          <ul class="footer-menu__nav">
+            <li><a href="../presentation.html">Presentación</a></li>
+            <li><a href="../categories.html">Categorías</a></li>
+            <li><a href="../links.html">Enlaces</a></li>
+          </ul>
+        </div>
+        <hr />
+        <div class="footer-author">
+          <p>Herramientas HTML y CSS</p>
+          <p>2022 &copy; Francisco Javier Pérez Arribas</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="../js/script.js"></script>
+</html>
