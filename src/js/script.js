@@ -1,3 +1,4 @@
+document.addEventListener('touchstart', onTouchStart, {passive: true});
 
 let upButtom = document.getElementById("up_buttom");
 
