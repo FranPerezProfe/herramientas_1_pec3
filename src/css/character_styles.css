@@ -26,6 +26,7 @@
 
 #character picture img {
     width: 80%;
+    height: auto;
 }
 
 @media (min-width: 768px) {
