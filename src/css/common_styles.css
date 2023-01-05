@@ -167,8 +167,9 @@ nav a {
         align-items: center;
     }
 
-    .nav-logo {
-        max-height: 80px;
+    #nav-logo {
+        height: 80px;
+        width: auto;
     }
 
     nav li {
