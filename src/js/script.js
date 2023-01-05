@@ -1,4 +1,3 @@
-document.addEventListener('touchstart', onTouchStart, {passive: true});
 
 let upButtom = document.getElementById("up_buttom");
 
@@ -14,7 +13,11 @@ function scrollFunction() {
   }
 }
 
+window.addEventListener('scroll', scrollFunction, { passive: true });
+
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+upButtom.addEventListener('touchstart', topFunction, { passive: true });

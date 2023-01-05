@@ -2,7 +2,46 @@
     ESTILOS COMUNES
     ---------------
 **/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap");
+
+@font-face {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Roboto-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: bold;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../fonts/Roboto-Black.ttf") format("truetype");
+}
 
 :root {
     --text-color: #011e5d;
@@ -37,7 +76,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-display: swap;
 }
 
 h1 {
