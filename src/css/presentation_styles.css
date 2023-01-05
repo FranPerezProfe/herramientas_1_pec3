@@ -1,0 +1,121 @@
+@keyframes rotate {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.25;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.section-options {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.section-options__item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-options__item img {
+    width: 80%;
+}
+
+.section-options__item-title {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+#presentacion .section-main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+#presentacion h2 {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+#presentacion .section-main h2 {
+    text-align: justify;
+}
+
+#presentacion .section-logo img {
+    max-height: 250px;
+}
+#presentacion .section-logo {
+    text-align: center;
+}
+
+#presentacion .section-logo img:hover {
+    -webkit-animation: rotate 0.5s linear 1;
+    animation: rotate 0.5s linear 1;
+}
+
+#presentacion .section-options__item img {
+    width: 100%;
+}
+
+#presentacion .section-options__item img:hover {
+    transform: scale(1.03);
+    margin-bottom: 2px;
+}
+
+#presentacion .section-options h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#presentacion .section-links {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #presentacion h2 {
+        font-size: 1.8rem;
+    }
+
+    #presentacion .section-logo img {
+        max-height: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-options {
+        flex-direction: row;
+    }
+
+    .section-options__item {
+        width: 48%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-options {
+        width: 80%;
+    }
+
+    .section-options__item {
+        width: 31%;
+    }
+}

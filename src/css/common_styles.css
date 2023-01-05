@@ -182,6 +182,176 @@ nav a {
 }
 
 /**
+    FOOTER
+    ------
+**/
+
+footer {
+    padding: 10px 0;
+    background: var(--bg-color-footer);
+    color: var(--text-color-footer);
+}
+
+footer p {
+    padding: 0;
+    margin: 5px;
+}
+
+footer a:hover {
+    color: var(--hover-color-footer);
+    font-weight: bold;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu__img {
+    display: none;
+}
+
+.footer-menu__nav {
+    display: none;
+}
+
+.footer-author {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer hr {
+    border: 1px solid var(--bg-color);
+    width: 80%;
+    margin: 5px auto;
+}
+
+@media (min-width: 768px) {
+    .footer-container {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .footer-menu {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .footer-menu__img {
+        display: inline;
+        width: 60px;
+    }
+
+    .footer-menu__nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-menu li {
+        margin-left: 30px;
+    }
+
+    .footer-author {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    footer hr {
+        width: 100%;
+    }
+} /**
+    FOOTER
+    ------
+**/
+
+footer {
+    padding: 10px 0;
+    background: var(--bg-color-footer);
+    color: var(--text-color-footer);
+}
+
+footer p {
+    padding: 0;
+    margin: 5px;
+}
+
+footer a:hover {
+    color: var(--hover-color-footer);
+    font-weight: bold;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu__img {
+    display: none;
+}
+
+.footer-menu__nav {
+    display: none;
+}
+
+.footer-author {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer hr {
+    border: 1px solid var(--bg-color);
+    width: 80%;
+    margin: 5px auto;
+}
+
+@media (min-width: 768px) {
+    .footer-container {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .footer-menu {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .footer-menu__img {
+        display: inline;
+        width: 60px;
+    }
+
+    .footer-menu__nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-menu li {
+        margin-left: 30px;
+    }
+
+    .footer-author {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    footer hr {
+        width: 100%;
+    }
+}
+
+/**
     MAIN
     ----
 **/
