@@ -45,6 +45,7 @@
 
 .section-options__item img {
     width: 80%;
+    height: auto;
 }
 
 #home .section-options__item img {
