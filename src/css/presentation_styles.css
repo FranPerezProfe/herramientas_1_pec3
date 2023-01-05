@@ -58,9 +58,6 @@
     text-align: justify;
 }
 
-#presentacion .section-logo img {
-    max-height: 250px;
-}
 #presentacion .section-logo {
     text-align: center;
 }
@@ -95,8 +92,9 @@
         font-size: 1.8rem;
     }
 
-    #presentacion .section-logo img {
-        max-height: 400px;
+    #presentacion .main-logo-img {
+        height: 400px;
+        width: auto;
     }
 }
 

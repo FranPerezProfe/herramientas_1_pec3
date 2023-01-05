@@ -29,6 +29,10 @@
       type="image/x-icon"
       href="../images/logos/laptop-solid.svg"
     />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/lite-youtube-embed/src/lite-yt-embed.css"
+    />
   </head>
 
   <body id="character">
@@ -37,8 +41,10 @@
         <div class="container">
           <a href="../index.html" title="Home page">
             <img
+              width="60"
+              height="60"
               src="../images/logos/logoMenu.svg"
-              class="nav-logo"
+              id="nav-logo"
               alt="Logo"
             />
           </a>
@@ -141,16 +147,7 @@
           </p>
 
           <div class="video">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/tI-wCLnPM98"
-              title="Biografía de John von Neumann"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              loading="lazy"
-            ></iframe>
+            <lite-youtube videoid="tI-wCLnPM98"></lite-youtube>
           </div>
 
           <div class="referencia">
@@ -220,4 +217,8 @@
     </footer>
   </body>
   <script defer src="../js/script.js"></script>
+  <script
+    defer
+    src="../../node_modules/lite-youtube-embed/src/lite-yt-embed.js"
+  ></script>
 </html>

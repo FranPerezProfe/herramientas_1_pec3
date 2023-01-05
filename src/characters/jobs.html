@@ -29,6 +29,10 @@
       type="image/x-icon"
       href="../images/logos/laptop-solid.svg"
     />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/lite-youtube-embed/src/lite-yt-embed.css"
+    />
   </head>
 
   <body id="character">
@@ -37,8 +41,10 @@
         <div class="container">
           <a href="../index.html" title="Home page">
             <img
+              width="60"
+              height="60"
               src="../images/logos/logoMenu.svg"
-              class="nav-logo"
+              id="nav-logo"
               alt="Logo"
             />
           </a>
@@ -327,16 +333,7 @@
           </p>
 
           <div class="video">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/y-hfOhGbpRE"
-              title="Biografía de Steve Jobs"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              loading="lazy"
-            ></iframe>
+            <lite-youtube videoid="y-hfOhGbpRE"></lite-youtube>
           </div>
 
           <div class="referencia">
@@ -409,6 +406,8 @@
       <div class="container">
         <div class="footer-menu">
           <img
+            width="60"
+            height="60"
             src="../images/logos/logoFooter.svg"
             class="nav-logo"
             alt="Logo"
@@ -430,4 +429,8 @@
     </footer>
   </body>
   <script defer src="../js/script.js"></script>
+  <script
+    defer
+    src="../../node_modules/lite-youtube-embed/src/lite-yt-embed.js"
+  ></script>
 </html>
