@@ -21,3 +21,7 @@ function topFunction() {
 }
 
 upButtom.addEventListener('touchstart', topFunction, { passive: true });
+
+window.onload = function() {
+  document.getElementById("my-iframe").style.display = "block";
+}
