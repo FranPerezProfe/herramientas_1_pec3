@@ -32,6 +32,7 @@
 
 .section-options__item img {
     width: 80%;
+    height: auto;
 }
 
 .section-options__item-title {
