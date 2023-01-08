@@ -45,6 +45,7 @@
 }
 
 #enlaces .link-item a {
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--external-link);
 }
@@ -52,4 +53,16 @@
 #enlaces .link-item a:hover {
     font-weight: 700;
     color: var(--external-link-hover);
+}
+
+#enlaces .links-img li {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 576px) {
+    #enlaces .links-img li {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
 }
